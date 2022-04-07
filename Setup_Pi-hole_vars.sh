@@ -3,6 +3,8 @@
 #
 # Username that will be used to logon to the Pi
 export NewUserName=""
+# <Insert 2 letter ISO 3166-1 country code here>
+export country=""
 # Static IP address of the Pi
 export IPAddress=""
 # Subnet mask in CIDR Subnet Mask Notation (e.g. 24 instead of 255.255.255.0)
