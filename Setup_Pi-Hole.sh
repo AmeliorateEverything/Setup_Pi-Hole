@@ -142,4 +142,5 @@ wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
 apt update
 apt install log2ram
 
-sed -i '/USE_RSYNC=/s/false/true/g' /etc/log2ram.conf
+# Not needed anymore, USE_RSYNC: (commented out by default = true)
+#sed -i '/USE_RSYNC=/s/false/true/g' /etc/log2ram.conf
